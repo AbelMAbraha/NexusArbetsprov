@@ -1,0 +1,294 @@
+﻿
+.icon:before {
+    font-family: 'MeteoconsRegular';
+    content: attr(data-icon);
+}
+
+#firstDiv > div:first-child > p {
+    font-family: Verdana;
+    text-align: center;
+    font-weight: 200;
+    font-size: 45px;
+}
+
+#firstDiv > div:nth-child(2) {
+    border-radius: 3px;
+    border: 2px solid white;
+    background: linear-gradient(135deg, rgb(252, 250, 237) 0%, rgb(239, 245, 240) 48%);
+    margin: 0px auto;
+    width: 56%;
+    padding-bottom: 5%;
+}
+
+    #firstDiv > div:nth-child(2) > p {
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        color: #000;
+        font-size: 33px;
+        text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2);
+        padding-top: 5%;
+        margin-bottom: 15px;
+    }
+
+.iLogo:before {
+    content: "ı";
+    position: absolute;
+    color: white;
+}
+
+.i, .iLogo {
+    color: rgb(40, 188, 245);
+}
+
+    .i:before {
+        content: "ı";
+        position: absolute;
+        color: black;
+    }
+
+#searchInput > input {
+    margin: auto;
+    display: block;
+    width: 100%;
+    border: 0;
+    padding: 13px 45px 10px 80px;
+    box-shadow: 1px 1px #edefe8, 2px 2px #edefe8, 2px 2px #edefe8, 3px 3px #edefe8, 4px 4px #edefe8,5px 5px #edefe8, 6px 6px #edefe8, 7px 7px #edefe8, 8px 8px #edefe8, 9px 9px #edefe8, 10px 10px #edefe8, 11px 11px #edefe8, 12px 12px #edefe8, 13px 13px #edefe8, 14px 14px #edefe8, 15px 15px #edefe8, 16px 16px #edefe8, 17px 17px #edefe8, 18px 18px #edefe8, 19px 19px #edefe8, 20px 20px #edefe8, 21px 21px #edefe8, 22px 22px #edefe8, 23px 23px #edefe8, 24px 24px #edefe8, 25px 25px #edefe8, 26px 26px #edefe8, 27px 27px #edefe8, 28px 28px #edefe8, 29px 29px #edefe8, 30px 30px #edefe8, 31px 31px #edefe8, 32px 32px #edefe8, 33px 33px #edefe8, 34px 34px #edefe8, 35px 35px #edefe8, 36px 36px #edefe8, 37px 37px #edefe8, 38px 38px #edefe8, 39px 39px #edefe8, 40px 40px #edefe8, 41px 41px #edefe8, 42px 42px #edefe8, 43px 43px #edefe8, 44px 44px #edefe8, 45px 45px #edefe8, 46px 46px #edefe8, 47px 47px #edefe8, 48px 48px #edefe8, 49px 49px #edefe8, 50px 50px #edefe8, 51px 51px #edefe8, 52px 52px #edefe8, 53px 53px #edefe8, 54px 54px #edefe8, 55px 55px #edefe8, 56px 56px #edefe8, 57px 57px #edefe8, 58px 58px #edefe8, 59px 59px #edefe8;
+}
+
+#searchInput {
+    position: relative;
+    width: 82%;
+    margin: 0 auto;
+}
+
+    #searchInput > span {
+        font-weight: bold;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 7.2px;
+        font-family: Tw Cen MT;
+        font-size: 19px;
+        letter-spacing: -0.6px;
+        color: #635e5e;
+    }
+
+    #searchInput > button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0px;
+        background-color: transparent;
+        border: 0;
+        padding-right: 15px;
+        PADDING-LEFT: 12PX;
+    }
+
+        #searchInput > button > i {
+            font-size: 32px;
+            color: #d8d81e;
+        }
+
+#weather {
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+    #weather > div {
+        padding: 10px;
+    }
+
+        #weather > div > div > i {
+            font-size: 100px;
+            padding: 0;
+        }
+
+        #weather > div > div {
+            border-radius: 4px;
+            padding: 14px;
+            overflow: hidden;
+            color: white;
+        }
+
+            #weather > div > div > div {
+                padding: 0px 0% 0px 30px;
+            }
+
+        #weather > div:first-child > div:first-child {
+            background-color: rgb(235, 152, 97);
+        }
+
+        #weather > div:nth-child(2) > div:first-child {
+            background-color: rgb(133, 219, 240) !important;
+        }
+
+        #weather > div:last-child > div:last-child {
+            background-color: rgb(218, 169, 90) !important;
+        }
+
+        #weather > div > div > button {
+            background-color: transparent;
+            border: 0;
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            right: 15px;
+            top: 15px;
+        }
+
+        #weather > div > div > div > p:first-child > span {
+            font-family: "Tw Cen MT";
+            font-size: 18px;
+            font-weight: bold;
+            position: absolute;
+            top: 35px;
+        }
+
+        #weather > div > div > div > p {
+            text-align: center;
+            margin-bottom: 0;
+            margin: 0;
+        }
+
+            #weather > div > div > div > p:first-child {
+                font-family: 'Lato', sans-serif;
+                font-size: 40px;
+                margin-top: 6px;
+            }
+
+            #weather > div > div > div > p:last-child {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-weight: bold;
+                font-family: Calibri;
+                font-size: 21px;
+            }
+
+            #weather > div > div > div > p:first-child > span {
+                font-family: "Tw Cen MT";
+                font-size: 18px;
+                font-weight: bold;
+                position: absolute;
+                top: 14px;
+            }
+
+#firstDiv > div:first-child {
+    padding-bottom: 7%;
+    padding-top: 10%;
+}
+
+    #firstDiv > div:first-child > p > span:first-child {
+        margin-right: 10px;
+        padding: 16px;
+        border-radius: 40px;
+        background-color: black;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        color: white;
+    }
+
+#searchInput > button:focus, #searchInput > button:active {
+    outline: none;
+}
+
+@media screen and (max-width: 1200px) {
+    #searchInput > input {
+        box-shadow: none;
+        color: #696565;
+    }
+
+    #weather > div > div > div > p:first-child > span {
+        font-family: "Tw Cen MT";
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        top: -37px;
+    }
+
+    #weather > div > div > p {
+        margin: 0;
+    }
+
+    #weather > div > div > div > p:first-child {
+        font-family: 'Lato', sans-serif;
+        font-size: 70px;
+        margin-top: 16px;
+    }
+
+    #weather > div:first-child > div:first-child {
+        background-color: #E98143;
+    }
+
+    #weather > div:last-child > div:last-child {
+        background-color: #E9A543 !important;
+    }
+
+    #weather > div:nth-child(2) > div:first-child {
+        background-color: #6FD7F5 !important;
+    }
+
+    #firstDiv > div:nth-child(2) {
+        width: 100%;
+        border: 0;
+        border-bottom: solid 1px white;
+        background: #fff6c9;
+        background: -moz-linear-gradient(5deg, rgba(255, 246, 201, 0.29) 2%,rgba(207, 239, 242, 0.33) 100%);
+        background: -webkit-linear-gradient(5deg, rgba(255, 246, 201, 0.29) 2%,rgba(207, 239, 242, 0.33) 100%);
+        background: linear-gradient(5deg, rgba(255, 246, 201, 0.29) 2%,rgba(207, 239, 242, 0.33) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff6c9', endColorstr='#6eafb5',GradientType=1 );
+    }
+
+    #weather {
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+    }
+
+        #weather > div:first-child {
+            -webkit-box-ordinal-group: 2;
+            -moz-box-ordinal-group: 2;
+            box-ordinal-group: 2;
+        }
+
+    #mainDiv > div:last-child > div > div > div > p:first-child {
+        font-size: 90px;
+        height: 110px;
+        margin-bottom: 13px;
+        margin-top: 15px;
+    }
+
+    #weather > div > p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: bold;
+        font-family: Calibri;
+        margin: 0;
+        font-size: 21px;
+        padding: 0;
+        padding-bottom: 0;
+        margin-top: -1%;
+        margin-bottom: 10px;
+        padding-left: 25px;
+    }
+
+    #mainDiv > div:last-child > div:last-child > div:last-child {
+        padding: 0;
+    }
+
+    #mainDiv > div:last-child > div > div > i {
+        margin-top: 20px;
+    }
+
+    body {
+        background: rgb(226, 239, 241) !important;
+        background: -moz-linear-gradient(-45deg, rgb(226, 239, 241) 30%, #fff6c9 100%) !important;
+        background: -webkit-linear-gradient(-45deg, rgb(226, 239, 241) 30%,#fff6c9 100%) !important;
+        background: linear-gradient(135deg, rgb(226, 239, 241) 30%,#fff6c9 100%) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(226, 239, 241)', endColorstr='#fff6c9',GradientType=1 ) !important;
+    }
+}

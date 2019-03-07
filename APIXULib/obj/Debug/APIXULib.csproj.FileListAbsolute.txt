@@ -1,0 +1,27 @@
+E:\Projects\zoomash\APIXU\APIXULib\obj\Debug\APIXULib.csprojResolveAssemblyReference.cache
+E:\Projects\zoomash\APIXU\APIXULib\bin\Debug\APIXULib.dll
+E:\Projects\zoomash\APIXU\APIXULib\bin\Debug\APIXULib.pdb
+E:\Projects\zoomash\APIXU\APIXULib\obj\Debug\APIXULib.dll
+E:\Projects\zoomash\APIXU\APIXULib\obj\Debug\APIXULib.pdb
+E:\Projects\zoomash\APIXU\APIXULib\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\zoomash\APIXU\APIXULib\bin\Debug\System.Net.Http.Formatting.dll
+E:\Projects\zoomash\APIXU\APIXULib\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\zoomash\APIXU\APIXULib\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\AbelM\Downloads\apixu-csharp-master\APIXULib\bin\Debug\APIXULib.dll
+C:\Users\AbelM\Downloads\apixu-csharp-master\APIXULib\bin\Debug\APIXULib.pdb
+C:\Users\AbelM\Downloads\apixu-csharp-master\APIXULib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AbelM\Downloads\apixu-csharp-master\APIXULib\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\AbelM\Downloads\apixu-csharp-master\APIXULib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AbelM\Downloads\apixu-csharp-master\APIXULib\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\AbelM\Downloads\apixu-csharp-master\APIXULib\obj\Debug\APIXULib.csprojResolveAssemblyReference.cache
+C:\Users\AbelM\Downloads\apixu-csharp-master\APIXULib\obj\Debug\APIXULib.dll
+C:\Users\AbelM\Downloads\apixu-csharp-master\APIXULib\obj\Debug\APIXULib.pdb
+C:\Users\AbelM\Downloads\Nexus Arbetsprov\APIXULib\bin\Debug\APIXULib.dll
+C:\Users\AbelM\Downloads\Nexus Arbetsprov\APIXULib\bin\Debug\APIXULib.pdb
+C:\Users\AbelM\Downloads\Nexus Arbetsprov\APIXULib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AbelM\Downloads\Nexus Arbetsprov\APIXULib\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\AbelM\Downloads\Nexus Arbetsprov\APIXULib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AbelM\Downloads\Nexus Arbetsprov\APIXULib\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\AbelM\Downloads\Nexus Arbetsprov\APIXULib\obj\Debug\APIXULib.csprojResolveAssemblyReference.cache
+C:\Users\AbelM\Downloads\Nexus Arbetsprov\APIXULib\obj\Debug\APIXULib.dll
+C:\Users\AbelM\Downloads\Nexus Arbetsprov\APIXULib\obj\Debug\APIXULib.pdb

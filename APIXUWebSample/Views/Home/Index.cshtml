@@ -1,0 +1,40 @@
+﻿@model IEnumerable<APIXULib.WeatherModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+<div id="firstDiv">
+    <div class="col-md-12 hidden-xs">
+        <p><span>V<span class="iLogo">i</span></span>V<span class="i">i</span>nnovera</p>
+    </div>
+    <div>
+        <p>How's the weather in...</p>
+        <div id="searchInput">
+            <span>Location: </span>
+            <input type="text" maxlength="512" ng-model="city" id="searchTxt" class="searchField" />
+            <button id="runButton" ng-click="runService(city)"><i>+</i></button>
+        </div>
+    </div>
+</div>
+<div class="col-md-12">
+    <div id="weather">
+        <div class="col-lg-4 col-md-12" ng-repeat="weather in weatherInfo">
+            <div>
+                <i class="col-lg-3 glyphicon glyphicon-cloud pull-left"></i>
+                <button>
+                    <i class="glyphicon glyphicon-remove-sign"></i>
+                </button>
+                <div class="col-md-10 col-xs-12 col-lg-9">
+                    <p>{{weather.current.temp_c}}<span>&deg;C</span></p>
+                    <p class="hidden-xs">{{weather.location.name}}, {{weather.location.country}}</p>
+                </div>
+                <p class="hidden-lg hidden-md hidden-sm">{{weather.location.name}}, {{weather.location.country}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 hidden-lg hidden-md hidden-sm" id="firstDiv">
+    <div>
+        <p><span>V<span class="iLogo">i</span></span>V<span class="i">i</span>nnovera</p>
+    </div>
+</div>
+<script src="~/Scripts/ArrayOfCities.js"></script>
